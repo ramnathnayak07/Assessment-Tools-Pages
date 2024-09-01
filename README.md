@@ -1,37 +1,55 @@
-# Oexamination (Backend)
+# Assessment-Tools-Pages
 
-This is an Online examintion system with Video Surveillance.
+Assessment-Tools-Pages is an online examination system integrated with video surveillance to ensure a secure and fair testing environment. This project allows administrators to create exams, students to take exams, and results to be calculated and displayed. The video surveillance feature captures and monitors the exam sessions to prevent cheating.
 
-## Project Essentials Links:
+Features:
+User Authentication: Secure login and registration for users.
+Exam Creation: Admins can create, edit, and delete exams.
+Question Management: Add, update, and remove questions for each exam.
+Video Surveillance: Capture and monitor exam sessions to prevent cheating.
+Automated Grading: Automatically grade exams and calculate results.
+Result Management: View, download, and analyze exam results.
 
-- [Website link](https://oexamination.netlify.app/)
-- [Download Thunder Client Collection import files](https://drive.google.com/file/d/1-FCrBSEVCV9p1SL1IDzlPfsjFWoA50ln/view?usp=sharing)
-- [Frontend GitHub repo link](https://github.com/NaveenMohanty/oexamination-frontend)
+Installation:
+To install and run the Oexamination project locally, follow these steps:
 
-## Installation
+Clone the repository:
+git clone https://github.com/ramnathnayak07/Assessment-Tools-Pages.git
+cd oexamination
 
-Install this project with npm
+Install dependencies:
+npm install
 
-```bash
-  git clone https://github.com/NaveenMohanty/oexamination.git
-  cd oexamination
-  npm install
-```
+Set up the environment variables:
+Create a .env file in the root directory and configure the following environment variables:
+DATABASE_URL=your-database-url
+JWT_SECRET=your-secret-key
 
-## Environment Variables
+Run the application:
+npm start
+The application should now be running on http://localhost:3000.
 
-To run this project, you will need to add the following environment variables to your .env file
+Environment Variables
+This project requires the following environment variables:
 
-`PORT = 5000`
+DATABASE_URL: The connection string for your database.
+JWT_SECRET: The secret key used for JWT authentication.
+Usage
+Admin Operations:
 
-`DB = "mongodb+srv://nav:9937895218@cluster0.agflk.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"`
+Login as an admin to create and manage exams.
+Add questions to the exam.
+Monitor the ongoing exams through the video surveillance feature.
+Student Operations:
 
-`SECRET = "naveenmohanty1234@gmail.com"`
+Register and log in as a student.
+Enroll in available exams.
+Take exams and submit answers.
+View your results after the exams are graded.
+Surveillance Monitoring:
 
--Don't Give PORT during deployment.
+Admins can review video surveillance footage for any flagged behavior during exams.
+API Documentation
+For detailed API documentation, including endpoints, request formats, and responses, refer to the Thunder Client collection available in the project. You can import this collection to explore and test the API.
 
-## [Click Here to see Features, Tech used and Website demonstration](https://drive.google.com/file/d/1U46rtSarfr111bin5vmNPGuceUwHXJLq/view?usp=sharing)
-
-## Feedback
-
-If you have any feedback, please reach out to us at https://oexamination.herokuapp.com/feedback
+Download Thunder Client Collection (Replace with actual link)
