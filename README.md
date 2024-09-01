@@ -2,6 +2,10 @@
 
 Assessment-Tools-Pages is an online examination system integrated with video surveillance to ensure a secure and fair testing environment. This project allows administrators to create exams, students to take exams, and results to be calculated and displayed. The video surveillance feature captures and monitors the exam sessions to prevent cheating.
 
+<a href="https://oexamination.netlify.app/">Click Here to view the Project</a><br>
+<a href="https://drive.google.com/file/d/1D8_vU_O_bl4Yt5F5a_A53WujA2lYrKnP/view?usp=sharing">Click Here to view the Documentation of Project</a><br>
+
+
 Features:
 
 - User Authentication: Secure login and registration for users.
